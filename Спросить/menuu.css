@@ -1,0 +1,79 @@
+header{
+	margin-top:200px;
+}
+.menu *{
+	margin:0px;
+	padding:0px;
+}
+.menu ul {
+	list-style:none;
+}
+.menu >ul{
+	display:flex;
+	justify-content:center;
+}
+.menu >ul li a{
+	transition:all 0.4s ease;
+	display:block;
+	background:#ff8000;
+	padding:15px 35px 15px 35px;
+	color:black;
+	text-transform:uppercase;
+	text-decoration:none;
+}
+.menu >ul li{
+	border-right:1px solid grey;
+}
+.menu >ul li:first-child{
+	border-left:2px solid grey;
+}											
+.menu >ul li:last-child{
+	border-right:2px solid grey;
+}
+.menu li a:hover{
+	background:#ffbf00;
+	color:white;
+	box-shadow:0px 3px 12px -3px black;
+	transition:all 0.4s ease;
+}
+/*Выпадающая часть*/
+.menu li ul {
+	position:absolute;
+	min-width:210px;
+	display:none;
+}
+.menu li>ul li{
+	border:1px solid grey;
+}
+.menu li > ul li a {
+	padding:14px;
+	text-transform:none;
+	background:#ffbf00;
+}
+.menu li > ul li a:hover{
+	background:#ff8000;
+	color:white;
+}
+.menu li:hover >ul{
+	display:block;
+}
+
+/*Выпадающая часть 2*/
+.menu li>ul li ul{
+	position:absolute;
+	right:-218px;
+	top:48px;
+}
+/*Поиск*/
+.poiskk {
+	background:#ff8000;
+	padding:7px 55px 8px 35px;
+}
+.Poisk{
+	width:190px;
+	height:32px;
+	border-radius:30px;
+}
+
+
+

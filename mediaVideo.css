@@ -1,0 +1,19 @@
+
+
+@media all and (max-width: 1200px){
+Video{
+	width:600px;
+}
+}
+
+@media all and (max-width: 730px){
+Video{
+	width:400px;
+}
+}
+
+@media all and (max-width: 480px){
+Video{
+	width:300px;
+}
+}

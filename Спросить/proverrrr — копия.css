@@ -1,0 +1,169 @@
+a{
+	text-decoration:none;
+	color:black;
+}
+h5{
+	margin-left:25px;
+	color:grey;
+	margin-top:-9px;
+}
+h3{
+	font-size:20px;
+	font-family: klingon;
+}
+.text1 {
+	font-size:32px;
+	padding-bottom:20px;
+}
+.xxx5{
+	color:grey;
+	font-size:19px;
+}
+.tabl{
+	padding:20px 15px 10px 15px;
+	width:1245px;
+	margin-bottom:30px;
+	margin-left:25px;
+	font-size:28px; 
+	background:#ffcc99;
+	border: 4px solid #ff8000;
+	border-bottom: 10px solid #000000;
+	border-right:10px solid #000000;
+	font-family: Monotype Corsiva;
+}
+.menu >ul  {
+	display:flex;
+	list-style:none;
+}
+
+.derb2{
+	display:flex;
+	width:100%;
+	margin:-10px;
+	
+}
+.Poisk{
+	
+	height:auto;
+	width:220px;
+	padding:8px;
+	border-radius:40px;
+}
+form{
+	width:130px;
+	height:38px;
+}
+.poiskk{
+	margin-right:12%;
+	margin-left:380px;
+}
+.novosti1{
+	font-family: Times New Roman;
+	margin-left:20px;
+	font-size:40px;
+	color:orange;
+	font-size:48px;
+	margin:20px;
+}
+.foto_tem{
+	width:45%;
+	margin-bottom:7px;
+	margin-left: 25px;
+
+}
+.nazv_tem{
+	margin-left: 25px;
+	color:#ff8000;
+	font-size:25px;
+	text-decoration:none;	
+}
+.Ali{
+	margin-left:45%;
+}
+.Ali2{
+	padding-top:-5px;
+	padding-bottom:5px;
+}
+
+
+
+
+.menu >ul>li{
+	background:blue;
+	color:yellow;	
+}
+.menu ul li a{
+	color:red;
+}
+.menu >li a{
+	border:2px solid red;
+	margin-right:-170px;
+	background:grey;	
+}
+.menu ul li a:hover{
+	color:yellow;
+}
+
+.menu ul>li:hover{
+	color:yellow;
+}
+.menu ul>li{
+	margin:17px 7pz 0px 7px;
+	color:red;
+	font-size:15px;
+	border:2px solid red;
+}
+.menu ul>li{
+	min-width:18%;
+	padding:13px 7px 13px 7px ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

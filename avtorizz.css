@@ -1,0 +1,137 @@
+a{	
+	list-style:none;
+	color:black;
+}
+ul{
+	list-style:none;
+	}
+.more{
+	position:relative;
+	width:100.8%;
+	margin:-8px;
+	margin-right:-10px;
+}
+
+.panel a{
+	text-decoration:none;
+	list-style:none;
+}
+.hrrr{
+	margin-top:10px;
+}
+.ObsIna{
+	margin-left:6%;
+	margin-top:20px;
+	position:relative;
+	font-size:36px;
+	font-family: Monotype Corsiva;
+}
+
+
+.gravn a{
+	color:#ff8000;
+}
+.gravn {
+	font-size:25px;
+	margin-left:3%;
+	margin-top:3%;
+}
+
+
+
+.kont{
+	box-shadow:5px 8px 18px 3px black;
+	border-radius:40px;
+	margin:3%;
+    margin-left:6%;
+    margin-right:6%;
+	border:2px solid grey;
+	margin-bottom:30px;
+}
+
+
+.hrhr{
+	margin-top:30px;
+}
+
+
+
+.Ali{
+	margin-left:45%;
+}
+.Ali2{
+	padding-top:-5px;
+	padding-bottom:5px;
+	}
+	
+/*Начало avtoriz*/
+
+* {box-sizing: border-box;}
+
+.transparent { 
+background-image: url(images/Главный_в_цитадель_Нарын-Кала.jpg); 
+background-size: cover; } 
+.transparent:before { 
+border-radius:15px;
+content: ""; 
+position: absolute; 
+top: 0; left: 0; right: 0; bottom: 0; 
+background: linear-gradient(to right bottom,orange,red);
+opacity:0.3;
+ } 
+.form-inner {position: relative;} 
+.form-inner h3 { position: relative; 
+margin-top: 0; color: white; 
+font-family: 'Roboto', sans-serif; 
+font-weight: 300; font-size: 26px; 
+text-transform: uppercase; } 
+.form-inner h3:after { 
+content: ""; 
+position :absolute; 
+left: 0; bottom: -6px; height: 2px; width: 200px; 
+background: #ff8000; } 
+.form-inner label { 
+display: block; 
+padding-left: 15px; 
+font-family: 'Roboto', sans-serif; 
+color: rgba(255,255,255,.6); 
+text-transform: uppercase; 
+font-size: 14px; } 
+.form-inner input { 
+display: block; 
+width: 100%; 
+padding: 0px 15px; 
+margin: 10px 0 15px -5px ; 
+border-width: 0;
+line-height: 40px; 
+border-radius: 20px; 
+color: white; 
+background: rgba(255,255,255,.2); 
+font-family: 'Roboto', sans-serif; } 
+.form-inner input[type="checkbox"] { 
+position: absolute; 
+opacity: 0; } 
+#custom-checkbox + label { 
+position: relative; 
+margin: 20px 0; 
+text-transform:none; 
+cursor: pointer; } 
+#custom-checkbox + label:before { 
+content: ""; 
+display: inline-block; 
+width: 20px; height: 20px; 
+margin-right: 10px; 
+vertical-align: text-top; 
+background: white; } 
+#custom-checkbox:checked + label:before {
+background: #ff8000;} 
+#custom-checkbox:checked + label:after { 
+content: ""; 
+position: absolute; 
+width: 2px; height: 2px; left: 20px; top: 9px; 
+background: white; 
+box-shadow: 2px 0 0 white, 4px 0 0 white, 4px -2px 0 white, 4px -4px 0 white, 4px -6px 0 white, 4px -8px 0 white; 
+transform: rotate(45deg); } 
+.form-inner input[type="submit"] {
+background: #ff8000;} 
+/*Конец avtoriz*/

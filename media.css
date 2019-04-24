@@ -1,0 +1,132 @@
+@media all and (min-width: 900px){
+	.dws-menu li a:hover{
+ /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e0e1e5+0,454547+2,454547+98,e0e1e5+100 */
+ background: linear-gradient(top, #ffbf00, orange); /* Old browsers */
+ background: -moz-linear-gradient(top, #ffbf00 ,orange); /* FF3.6-15 */
+ background: -webkit-linear-gradient(top, #ffbf00 ,orange);/* Chrome10-25,Safari5.1-6 */
+ background: linear-gradient(to bottom, #ffbf00, orange);/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0e1e5', endColorstr='#e0e1e5',GradientType=0 ); /* IE6-9 */
+
+ color: #ffffff;
+ box-shadow: 1px 5px 10px -5px black;
+ transition: all 0.4s ease;
+}
+.dws-menu li:hover > ul{
+ display: block;
+}
+.dws-menu li > ul li ul{
+ position: absolute;
+ right: -200px;
+ top: 0;
+}
+}
+
+
+/*Менююююю*/
+.dws-menu [type="checkbox"],
+.dws-menu label.toggleSubmenu,
+.dws-menu label.toggleSubmenu-sub{
+	display:none;
+}
+
+.dws-menu label.toggleMenu{
+	background:#ff8000;
+	display:none;
+	padding:15px 40px;
+	text-transform:uppercase;
+	font-size:14px;
+	cursor:pointer;
+	position:relative; 
+}
+.dws-menu label.toggleMenu .fa {
+	position:absolute;
+	top:15px;
+	left:12px;
+	font-size:18px;	
+}
+
+
+@media all and (max-width: 900px){
+.dws-menu{
+	overflow: hidden;
+}
+.dws-menu ul {
+	display:none;
+}		
+.dws-menu label.toggleMenu{
+	display:block;
+}	
+input.toggleMenu:checked + label.toggleMenu{
+	background:#ffbf00;
+	color:white;
+}
+input.toggleMenu:checked ~ ul,
+input.toggleSubmenu:checked ~ ul,
+input.toggleSubmenu-sub:checked ~ ul{
+	display: block;
+	position: relative;
+}
+.dws-menu label.toggleSubmenu{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+	display: block;
+}
+input.toggleSubmenu:checked ~ a{
+	background: #ffbf00;
+	color: #fff;
+}
+.dws-menu label.toggleSubmenu .fa:before{
+	content: "\f0d7";
+	color:black;
+}	
+.dws-menu label.toggleSubmenu .fa{
+	position:absolute;
+	top:15px;
+	right:30px;
+}
+.dws-menu input.toggleSubmenu:checked ~ label.toggleSubmenu .fa:before{
+	content: "\f0d8";
+	color: #ffffff;
+}
+.dws-menu label.toggleSubmenu-sub{
+	position: absolute;
+	top: 0;
+	right: 0px;
+	width:100%;
+	height: 100%;
+	cursor: pointer;
+	display: block;
+}
+.dws-menu label.toggleSubmenu-sub .fa:before{
+	content: "\f0d7";
+	color:black;
+}	
+.dws-menu label.toggleSubmenu-sub .fa{
+	position:absolute;
+	top:15px;
+	right:30px;
+}
+.dws-menu input.toggleSubmenu-sub:checked ~ label.toggleSubmenu-sub .fa:before{
+	content: "\f0d8";
+	color: #ffffff;
+}
+
+}
+/*Менююююю*/
+@media all and (max-width: 900px){
+.Ali{
+	margin-left:35%;
+}
+.text{
+	top: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+}
+
+}
+

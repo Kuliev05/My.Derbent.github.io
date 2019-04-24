@@ -1,0 +1,50 @@
+@media all and (max-width: 4000px){
+.transparent { 
+border-radius:15px;
+position: relative; 
+max-width: 400px; 
+padding: 60px 50px; 
+margin: 50px 0px 150px 0px;
+margin-left:35%; 
+margin-right:5%; 
+}
+}
+
+@media all and (max-width: 1200px){
+.transparent { 
+border-radius:15px;
+position: relative; 
+max-width: 400px; 
+padding: 60px 50px; 
+margin: 50px 0px 150px 0px;
+margin-left:28%; 
+margin-right:6%; 
+}
+}
+
+@media all and (max-width: 900px){
+.transparent { 
+height:480px;
+border-radius:15px;
+position: relative; 
+max-width: 400px; 
+padding: 60px 50px; 
+margin: 50px 0px 150px 0px;
+margin-left:20%; 
+margin-right:8%; 
+}
+}
+@media all and (max-width: 650px){
+.transparent { 
+height:450px;
+border-radius:15px;
+position: relative; 
+max-width: 400px; 
+padding: 60px 50px; 
+margin: 50px 0px 150px 0px;
+margin-left:10%; 
+margin-right:10%; 
+
+}
+
+

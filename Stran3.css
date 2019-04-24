@@ -1,0 +1,119 @@
+a{	
+	list-style:none;
+	color:black;
+}
+ul{
+	list-style:none;
+	}
+.more{
+	position:relative;
+	width:100.8%;
+	margin:-8px;
+	margin-right:-10px;
+}
+.panel {
+	position:absolute;
+	top:70%;
+	right:20%;
+}
+.panel a{
+	text-decoration:none;
+	list-style:none;
+}
+.hrrr{
+	margin-top:10px;
+}
+.ObsIna{
+	margin-left:6%;
+	margin-top:20px;
+	position:relative;
+	font-size:36px;
+	font-family: Monotype Corsiva;
+}
+.Text{
+	margin-left:65px;
+	margin-right:450px;
+	margin-bottom:70px;
+	font-size:20px;
+}
+.panel >ul{
+	margin-left:79%;
+	margin-top:5%;
+	width:250px;
+}
+.gravn a{
+	color:#ff8000;
+}
+.gravn {
+	font-size:25px;
+	margin-left:3%;
+	margin-top:3%;
+}
+
+
+.panel ul>li a{  
+	display:block;
+}
+.panel ul>li h2{ 
+	transition:all 0.4s ease;
+	margin:-1.5px;
+	border:3px solid Grey;
+	padding-top:15px;
+	padding-bottom:15px;
+	padding-left:3px;
+	background:#ffcc99 ;
+}
+.kont{
+	box-shadow:5px 8px 18px 3px black;
+	border-radius:40px;
+	margin:3%;
+	border:2px solid grey;
+	margin-bottom:30px;
+}
+
+
+.panel ul>li a :hover{
+	transition:all 0.3s ease;
+	color:white;
+	background: #ff8000;
+}
+ 
+/*История*/
+.panel li>ul{
+	position:absolute;
+	right:23px;
+	top:75px;
+}
+.panel li>ul li a{
+	transition:all 0.4s ease;
+	margin:-1.5px;
+	border:3px solid Grey;
+	padding-top:15px;
+	padding-bottom:15px;
+	padding-left:3px;
+	background:#ffcc99 ;
+	width:200px;
+	display:none;
+}
+.panel li>ul li a:hover{
+	background:#ff8000;
+	color:white;
+}
+.panel li:hover >ul a{
+	display:block;
+}
+
+
+.hrhr{
+	margin-top:30px
+}
+.Ali{
+	margin-left:45%;
+}
+.Ali2{
+	padding-top:-5px;
+	padding-bottom:5px;
+	} 
+
+
+

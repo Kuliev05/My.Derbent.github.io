@@ -1,0 +1,33 @@
+/*Таблица*/
+.table {
+	border-right:1px solid black;
+	border-left:1px solid black;
+	border-top:1px solid black;
+}
+
+.table td{
+	border-bottom:1px solid black;
+	
+}
+.table th{
+	border-bottom:1px solid black;
+	
+}
+.oneKol {
+	padding-right:50px;	
+	border-right:1px solid black;
+}
+.onezag{
+	border-right:1px solid black;
+}
+th{
+	background:#ff8000;
+}
+
+
+
+
+
+
+/*Таблица*/
+
